@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Danya Mashina
+	</title>
+</head>
+<body>
+	<div class="top-menu">
+			<div class="tmText"><b id="a2" class="a"> Бодибилдер с многолетним опытом</b> • <b id="a3" class="a">Квалифицированный тренер </b> • <a href="https://uprostim.com/220-foto-fitonyashek-v-bikini-i-ne-tolko/" id="a1" target="_blank" class="a">Люблю фитоняшек</a></div>
+	</div>
+	<div class="line"></div>
+	<div class="box2">
+		<div class="b2t"><h1>Перечень услуг:</h1><br> <b id="b1">1. Професиональные тренировки с лучшими специалистами </b><br><br> <img src="j5.jpg" alt="" id="i1">
+			<br><b id="b2">2. Растяжка</b><br><br><img src="j6.jpg" id="i2" alt=""><br><b id="b3">3. Забивка пресса</b><br><br><img src="j7.jpg" alt="" id="i3"> 
+		</div>
+	</div>
+	<div class="invisibleBox1">
+		<div class="X"><b>✖</b></div>
+		<div class="iBox1">
+			<div class="iBox1C">
+				<img src="j4.jpg" alt="">
+			</div>
+		</div>
+	</div>
+ 	<div class="invisibleBox2">
+		<div class="X"><b>✖</b></div>
+		<div class="iBox2">
+			<div class="iBox2C">
+				<img src="j1.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="dg">Спорт клуб имени <b id="n1">♂ Данила</b> <b id="n2">Гаческого ♂</b></div>
+	<script type="text/javascript">
+		$("#b3").click(function(){
+			$("#i3").css({"display": "block"})
+		})
+		$("#i3").click(function(){
+			$("#i3").css({"display": "none"})
+		})
+		$("#b2").click(function(){
+			$("#i2").css({"display": "block"})
+		})
+		$("#i2").click(function(){
+			$("#i2").css({"display": "none"})
+		})
+		$("#b1").click(function(){
+			$("#i1").css({"display": "block"})
+		})
+		$("#i1").click(function(){
+			$("#i1").css({"display": "none"})
+		})
+		$("#a2").click(function(){
+			$(".invisibleBox1").css({"display": "block"})
+		})
+		$("#a3").click(function(){
+			$(".invisibleBox2").css({"display": "block"})
+		})
+		$(".X").click(function(){
+			$(".invisibleBox1").css({"display": "none"})
+			$(".invisibleBox2").css({"display": "none"})
+		})
+	</script>
+</body>
+</html>
